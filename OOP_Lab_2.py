@@ -41,7 +41,7 @@ if __name__ == '__main__':
 # TODO написать класс Library
 
 class Library:
-    def __init__(self, books: List[Book] = []):
+    def __init__(self, books: List[Book] = None):
         self.books = books
 
     def get_next_book_id(self):
